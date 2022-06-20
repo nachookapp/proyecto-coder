@@ -19,7 +19,7 @@
 
 .encabezado{
     width: 100%; 
-    padding: 40px; 
+    padding: 50px; 
     box-sizing: border-box;
 }
 
@@ -46,25 +46,35 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #683294;
+    color: #aaa;
 }
 
 .bi-whatsapp {
-    color: rgb(45, 109, 45);
+    color:#000000;
     margin-bottom: 35rem;
-    font-size: 30rem;
+    font-size: 15rem;
     position: fixed;
-    left: 80%;
-    margin-top: 50rem;
-    bottom: 200px;
+    left: 90%;
+    margin-top: 20rem;
+    bottom: 50px;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    transition: all .3s;
+ 
+
 }
 
+
+
 main a i:hover {
-    color: green;
+    transform: scaleY();
+    transform: translate(50%);
+    color: #155e29;
 }
 
 .contenido {
-    background-image: url(../img/WhatsApp\ Image\ 2022-05-18\ at\ 3.07.36\ AM.jpeg);
+    background-image: url(../img/Fondo.Home.jpg);
+    /* background-image: url(../img/WhatsApp\ Image\ 2022-05-18\ at\ 3.07.36\ AM.jpeg); */
     background-repeat: no-repeat;
     background-position: center center;
     height: 100vh;
@@ -72,19 +82,21 @@ main a i:hover {
 }
 
 .titule {
-    color: white;
+    color: black;
     margin-bottom: 80rem;
     font-size: 10rem;
     position: relative;
     position: fixed;
-    bottom: 30%;
-    
+    bottom: 40%;
+    left: 300px; 
+    animation-duration: all;
 }
 
 .pie {
     background-color: black;
     height: 500px;
     width: 100%;
+    justify-content: space-around;
 
 }
 
@@ -107,12 +119,14 @@ i {
 
 }
 
-footer a i:hover {
-    color: #683294;
+footer div a i:hover {
+    text-decoration: none;
+    color:#aaa;
 }
 
 .contenidoShop {
-    background-image: url(../img/WhatsApp\ Image\ 2022-05-18\ at\ 12.27.37\ PM.jpeg);
+    background-image: url(../img/6f4de20138dc4fcd2418ea56877e1ca4.jpg);
+    /* background-image: url(../img/WhatsApp\ Image\ 2022-05-18\ at\ 12.27.37\ PM.jpeg); */
     background-repeat: no-repeat;
     background-position: right;
     height: 100vh;
@@ -179,7 +193,7 @@ main div img {
     left: 70%;
     flex-direction: row;
     text-decoration: none;
-    transition: ease-in .4s;
+    transition: ease-in .5s;
 }
 
 main a:hover {
