@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2? family=Plus+Jakarta+Sans:ital,wght@0,400;1,400;1,600;1,700&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
+
+:root {
+    --color-principal: rgba(0, 0, 0, 0.623);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    box-sizing: border-box;
+    font-size: 20rem;
+    color: white;
+}
+
+.encabezado{
+    width: 100%; 
+    padding: 40px; 
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: var(--color-principal);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    gap: 10rem;
+    align-items: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 5rem;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: #683294;
+}
+
+.bi-whatsapp {
+    color: rgb(45, 109, 45);
+    margin-bottom: 35rem;
+    font-size: 30rem;
+    position: fixed;
+    left: 80%;
+    margin-top: 50rem;
+    bottom: 200px;
+}
+
+main a i:hover {
+    color: green;
+}
+
+.contenido {
+    background-image: url(../img/WhatsApp\ Image\ 2022-05-18\ at\ 3.07.36\ AM.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    background-size: cover;
+}
+
+.titule {
+    color: white;
+    margin-bottom: 80rem;
+    font-size: 10rem;
+    position: relative;
+    position: fixed;
+    bottom: 30%;
+    
+}
+
+.pie {
+    background-color: black;
+    height: 500px;
+    width: 100%;
+
+}
+
+footer p {
+    position: relative;
+    text-decoration: none;
+    font-size: 4rem;
+    color: azure;
+    text-align: center;
+    width: 100%;
+}
+
+i {
+    color: white;
+    font-size: 150px;
+    left: 46%;
+    position: relative;
+    justify-content: space-evenly;
+  
+
+}
+
+footer a i:hover {
+    color: #683294;
+}
+
+.contenidoShop {
+    background-image: url(../img/WhatsApp\ Image\ 2022-05-18\ at\ 12.27.37\ PM.jpeg);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100vh;
+    background-size: contain;
+
+}
+
+.galleria {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-areas:
+       "indumentaria accesorios"
+       "tablas calzado";
+       
+
+
+}
+
+main div img {
+    width: 700px;
+    height: 700px;
+    padding: 100px;
+
+}
+
+
+.contenido-magazine {
+    background-image: url(../img/29c233d4-6c3c-4ba9-8f94-4208f40ef5ea.webp);
+    background-repeat: no-repeat;
+    height: 120vh;
+    width: 100%;
+    background-size: cover;
+
+
+}
+
+.title {
+    color: black;
+    margin-bottom: 60rem;
+    font-size: 10rem;
+    position: relative;
+    position: fixed;
+    justify-content: flex-end;
+    bottom: 50%;
+    left: 70%;
+}
+
+.sub-title {
+    color: black;
+    font-size: 5rem;
+    position: relative;
+    position: fixed;
+    margin-top: 1500px;
+    left: 60%;
+    flex-direction: row;
+}
+
+.mas {
+    color: black;
+    font-size: 10rem;
+    position: fixed;
+    margin-top: 30%;
+    left: 70%;
+    flex-direction: row;
+    text-decoration: none;
+    transition: ease-in .4s;
+}
+
+main a:hover {
+    color: #683294;
+    transform: scale(1.5);
+}
+
+.contenidomobile {
+    background-image: url(../img/WhatsApp\ Image\ 2022-05-18\ at\ 3.22.10\ PM.jpeg);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100vh;
+    background-size: cover;
+}
+
+
